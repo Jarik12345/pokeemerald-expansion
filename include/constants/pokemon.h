@@ -214,9 +214,9 @@
 #define MAX_IV_MASK 31
 #define USE_RANDOM_IVS (MAX_PER_STAT_IVS + 1)
 #if P_EV_CAP >= GEN_6
-#define MAX_PER_STAT_EVS 252
+#define MAX_PER_STAT_EVS 0
 #else
-#define MAX_PER_STAT_EVS 255
+#define MAX_PER_STAT_EVS 0
 #endif
 #define MAX_TOTAL_EVS 510
 #if I_VITAMIN_EV_CAP >= GEN_8
