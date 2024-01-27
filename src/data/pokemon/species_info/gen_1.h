@@ -4912,7 +4912,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Kadabra, 2),
         .footprint = gMonFootprint_Kadabra,
         LEARNSETS(Kadabra),
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_ALAKAZAM},
+        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_ALAKAZAM},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM}),
     },
 
@@ -5108,7 +5108,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Machoke, 2),
         .footprint = gMonFootprint_Machoke,
         LEARNSETS(Machoke),
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_MACHAMP},
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_MACHAMP},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MACHAMP}),
     },
 
@@ -5563,7 +5563,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         PALETTES(Graveler),
         ICON(Graveler, 1),
         LEARNSETS(Graveler),
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOLEM},
+        .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_GOLEM},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOLEM}),
     },
 
@@ -7022,7 +7022,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Haunter, 2),
         .footprint = gMonFootprint_Haunter,
         LEARNSETS(Haunter),
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GENGAR},
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_GENGAR},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GENGAR}),
     },
 

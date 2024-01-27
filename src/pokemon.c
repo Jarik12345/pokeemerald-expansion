@@ -57,9 +57,9 @@
 #include "constants/weather.h"
 
 #if P_FRIENDSHIP_EVO_THRESHOLD >= GEN_9
-#define FRIENDSHIP_EVO_THRESHOLD 160
+#define FRIENDSHIP_EVO_THRESHOLD 1
 #else
-#define FRIENDSHIP_EVO_THRESHOLD 220
+#define FRIENDSHIP_EVO_THRESHOLD 1
 #endif
 
 struct SpeciesItem
