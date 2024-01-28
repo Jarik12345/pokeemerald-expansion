@@ -3209,6 +3209,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 16,
     .species = SPECIES_NOSEPASS,
+    .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
     .heldItem = ITEM_QUICK_CLAW,
     .moves = {MOVE_ROCK_THROW, MOVE_BULLDOZE, MOVE_SPARK, MOVE_SAND_TOMB}
     },
@@ -3216,6 +3217,8 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 16,
     .species = SPECIES_ARCHEN,
+    .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
+    .ability = ABILITY_INTIMIDATE, 
     .heldItem = ITEM_FLYING_GEM,
     .moves = {MOVE_PLUCK, MOVE_ROCK_TOMB, MOVE_QUICK_ATTACK, MOVE_DRAGON_BREATH}
     },
@@ -3223,9 +3226,36 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 16,
     .species = SPECIES_MUDBRAY,
+    .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
+    .ability = ABILITY_INNER_FOCUS,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_BULLDOZE, MOVE_ROCK_SMASH, MOVE_STOMP, MOVE_ROCK_TOMB}
+    },
+    {
+      .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+      .lvl = 16,
+      .species = SPECIES_AMAURA,
+      .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
+      .heldItem = ITEM_CHOPLE_BERRY,
+      .moves = {MOVE_ICY_WIND, MOVE_ROUND, MOVE_WATER_GUN, MOVE_ROCK_TOMB}
+    },
+    {
+        .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+        .lvl = 16,
+        .species = SPECIES_TIMBURR,
+        .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
+        .heldItem = ITEM_COBA_BERRY,
+        .moves = {MOVE_MACH_PUNCH, MOVE_ROCK_THROW, MOVE_ROCK_SMASH, MOVE_PURSUIT}
+    },
+    {
+        .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+        .lvl = 16,
+        .species = SPECIES_BRONZOR,
+        .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
+        .heldItem = ITEM_EVIOLITE,
+        .moves = {MOVE_CONFUSION, MOVE_MIRROR_SHOT, MOVE_PAYBACK, MOVE_CONFUSE_RAY} 
     }
+
 };
 
 static const struct TrainerMon sParty_Brawly1[] = {
