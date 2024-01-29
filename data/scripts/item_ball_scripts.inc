@@ -1,5 +1,5 @@
-Route102_EventScript_ItemPotion::
-	finditem ITEM_POTION
+Route102_EventScript_ItemAbilityCapsule::
+	finditem ITEM_ABILITY_CAPSULE
 	end
 
 Route103_EventScript_ItemGuardSpec::
