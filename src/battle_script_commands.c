@@ -14781,7 +14781,6 @@ static void Cmd_handleballthrow(void)
                 if (B_SPORT_BALL_MODIFIER <= GEN_7)
                     ballMultiplier = 150;
             case ITEM_GREAT_BALL:
-            case ITEM_SAFARI_BALL:
                 ballMultiplier = 150;
                 break;
             case ITEM_NET_BALL:
@@ -14976,7 +14975,7 @@ static void Cmd_handleballthrow(void)
                 maxShakes = BALL_3_SHAKES_SUCCESS;
             }
 
-            if (gLastUsedItem == ITEM_MASTER_BALL)
+            if (gLastUsedItem == ITEM_MASTER_BALL || gLastUsedItem == ITEM_SAFARI_BALL)
             {
                 shakes = maxShakes;
             }
