@@ -6532,7 +6532,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     },
 
 #define GLALIE_MISC_INFO                                    \
-        .types = { TYPE_ICE, TYPE_ICE },                    \
+        .types = { TYPE_ICE, TYPE_ROCK },                    \
         .catchRate = 75,                                    \
         .evYield_HP = 2,                                    \
         .genderRatio = PERCENT_FEMALE(50),                  \

@@ -1793,7 +1793,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     #endif
         .formChangeTable = sPikachuFormChangeTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU},
-                                {EVO_NONE, 0, SPECIES_RAICHU_ALOLAN}),
+                                {EVO_ITEM, ITEM_SUN_STONE, SPECIES_RAICHU_ALOLAN}),
     },
 
 #if P_COSPLAY_PIKACHU_FORMS
@@ -4191,7 +4191,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 55,
         .baseSpAttack  = 65,
         .baseSpDefense = 50,
-        .types = { TYPE_WATER, TYPE_WATER },
+        .types = { TYPE_WATER, TYPE_PSYCHIC },
         .catchRate = 190,
         .expYield = 64,
         .evYield_SpAttack = 1,
@@ -4239,7 +4239,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 85,
         .baseSpAttack  = 95,
         .baseSpDefense = 80,
-        .types = { TYPE_WATER, TYPE_WATER },
+        .types = { TYPE_WATER, TYPE_PSYCHIC },
         .catchRate = 75,
         .expYield = 175,
         .evYield_SpAttack = 2,
@@ -4912,7 +4912,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Kadabra, 2),
         .footprint = gMonFootprint_Kadabra,
         LEARNSETS(Kadabra),
-        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_ALAKAZAM},
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_ALAKAZAM},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM}),
     },
 
@@ -5108,7 +5108,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Machoke, 2),
         .footprint = gMonFootprint_Machoke,
         LEARNSETS(Machoke),
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_MACHAMP},
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_MACHAMP},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MACHAMP}),
     },
 
@@ -9869,7 +9869,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 95,
         .baseSpAttack  = 95,
         .baseSpDefense = 85,
-        .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+        .types = { TYPE_ELECTRIC, TYPE_FIGHTING },
         .catchRate = 30,
         .expYield = 243,
         .evYield_Attack = 3,
