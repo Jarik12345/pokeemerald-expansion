@@ -4912,7 +4912,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Kadabra, 2),
         .footprint = gMonFootprint_Kadabra,
         LEARNSETS(Kadabra),
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_ALAKAZAM},
+        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_ALAKAZAM},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM}),
     },
 
@@ -5108,7 +5108,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Machoke, 2),
         .footprint = gMonFootprint_Machoke,
         LEARNSETS(Machoke),
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_MACHAMP},
+        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_MACHAMP},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MACHAMP}),
     },
 
@@ -7022,12 +7022,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Haunter, 2),
         .footprint = gMonFootprint_Haunter,
         LEARNSETS(Haunter),
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_GENGAR},
+        .evolutions = EVOLUTION({EVO_NONE, 0, SPECIES_GENGAR},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GENGAR}),
     },
 
 #if P_UPDATED_ABILITIES >= GEN_7
-#define GENGAR_ABILITIES {ABILITY_CURSED_BODY, ABILITY_NONE}
+#define GENGAR_ABILITIES {ABILITY_LEVITATE, ABILITY_NONE}
 #else
 #define GENGAR_ABILITIES {ABILITY_LEVITATE, ABILITY_NONE}
 #endif
@@ -9879,7 +9879,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_MOTOR_DRIVE, ABILITY_NONE, ABILITY_VITAL_SPIRIT },
+        .abilities = { ABILITY_IRON_FIST, ABILITY_NONE, ABILITY_VITAL_SPIRIT },
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Electivire"),
         .cryId = CRY_ELECTIVIRE,

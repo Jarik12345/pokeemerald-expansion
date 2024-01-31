@@ -31,7 +31,7 @@ SINGLE_BATTLE_TEST("Gale Wings only grants priority to Flying-type moves")
     PARAMETRIZE { move = MOVE_AERIAL_ACE; }
     PARAMETRIZE { move = MOVE_FLARE_BLITZ; }
     GIVEN {
-        ASSUME(B_GALE_WINGS >= GEN_7);
+        ASSUME(B_GALE_WINGS >= GEN_6);
         ASSUME(gBattleMoves[MOVE_AERIAL_ACE].type == TYPE_FLYING);
         ASSUME(gBattleMoves[MOVE_FLARE_BLITZ].type == TYPE_FIRE);
         PLAYER(SPECIES_TALONFLAME) { Ability(ABILITY_GALE_WINGS); HP(100); MaxHP(100); Speed(1);}

@@ -438,7 +438,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         ICON(Croconaw, 0),
         .footprint = gMonFootprint_Croconaw,
         LEARNSETS(Croconaw),
-        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_FERALIGATR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_FERALIGATR}),
     },
 
     [SPECIES_FERALIGATR] =
@@ -449,7 +449,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .baseSpeed     = 78,
         .baseSpAttack  = 79,
         .baseSpDefense = 83,
-        .types = { TYPE_WATER, TYPE_WATER },
+        .types = { TYPE_WATER, TYPE_DARK },
         .catchRate = 45,
         .expYield = 239,
         .evYield_Attack = 2,
