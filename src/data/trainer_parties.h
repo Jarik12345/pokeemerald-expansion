@@ -3207,53 +3207,56 @@ static const struct TrainerMon sParty_Drake[] = {
 static const struct TrainerMon sParty_Roxanne1[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 16,
-    .species = SPECIES_NOSEPASS,
-    .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
-    .heldItem = ITEM_QUICK_CLAW,
-    .moves = {MOVE_ROCK_THROW, MOVE_BULLDOZE, MOVE_SPARK, MOVE_SAND_TOMB}
+    .lvl = 14,
+    .species = SPECIES_CRANIDOS,
+    .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
+    .ability = ABILITY_MOLD_BREAKER,
+    .heldItem = ITEM_CHOPLE_BERRY,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_BULLDOZE, MOVE_CRUNCH, MOVE_STOMP}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 16,
-    .species = SPECIES_ARCHEN,
+    .species = SPECIES_DREDNAW,
     .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
-    .ability = ABILITY_INTIMIDATE, 
-    .heldItem = ITEM_FLYING_GEM,
-    .moves = {MOVE_PLUCK, MOVE_ROCK_TOMB, MOVE_QUICK_ATTACK, MOVE_DRAGON_BREATH}
+    .ability = ABILITY_STRONG_JAW, 
+    .heldItem = ITEM_AGUAV_BERRY,
+    .moves = {MOVE_BITE, MOVE_WATER_PULSE, MOVE_ROCK_SLIDE, MOVE_BULLDOZE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 16,
-    .species = SPECIES_MUDBRAY,
-    .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
-    .ability = ABILITY_INNER_FOCUS,
-    .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_BULLDOZE, MOVE_ROCK_SMASH, MOVE_STOMP, MOVE_ROCK_TOMB}
+    .lvl = 14,
+    .species = SPECIES_GLIGAR,
+    .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
+    .ability = ABILITY_POISON_HEAL,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_BULLDOZE, MOVE_DUAL_WINGBEAT, MOVE_KNOCK_OFF, MOVE_BRICK_BREAK}
     },
     {
       .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-      .lvl = 16,
-      .species = SPECIES_AMAURA,
-      .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
-      .heldItem = ITEM_CHOPLE_BERRY,
-      .moves = {MOVE_ICY_WIND, MOVE_ROUND, MOVE_WATER_GUN, MOVE_ROCK_TOMB}
+      .lvl = 14,
+      .species = SPECIES_GRAVELER,
+      .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
+      .ability = ABILITY_ROCK_HEAD,
+      .heldItem = ITEM_PASSHO_BERRY,
+      .moves = {MOVE_ROCK_SLIDE, MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_TAKE_DOWN}
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-        .lvl = 16,
-        .species = SPECIES_TIMBURR,
+        .lvl = 14,
+        .species = SPECIES_LYCANROC,
         .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
-        .heldItem = ITEM_COBA_BERRY,
-        .moves = {MOVE_MACH_PUNCH, MOVE_ROCK_THROW, MOVE_ROCK_SMASH, MOVE_PURSUIT}
+        .heldItem = ITEM_PASSHO_BERRY,
+        .moves = {MOVE_ACCELEROCK, MOVE_CRUNCH, MOVE_BULLDOZE, MOVE_FIRE_FANG}
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-        .lvl = 16,
-        .species = SPECIES_BRONZOR,
-        .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
-        .heldItem = ITEM_EVIOLITE,
-        .moves = {MOVE_CONFUSION, MOVE_MIRROR_SHOT, MOVE_PAYBACK, MOVE_CONFUSE_RAY} 
+        .lvl = 14,
+        .species = SPECIES_RELICANTH,
+        .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
+        .ability = ABILITY_ROCK_HEAD,
+        .heldItem = ITEM_RINDO_BERRY,
+        .moves = {MOVE_ROCK_TOMB, MOVE_WATER_PULSE, MOVE_ROCK_SLIDE, MOVE_ROCK_SMASH} 
     }
 
 };

@@ -77,8 +77,8 @@
 
 enum {
     MENU_SUMMARY,
-    MENU_NICKNAME,
     MENU_SWITCH,
+    MENU_NICKNAME,
     MENU_CANCEL1,
     MENU_ITEM,
     MENU_GIVE,

@@ -7,14 +7,14 @@
 const u16 sLevelCapFlagMap[][2] =
 {
     {FLAG_BADGE01_GET, 16},
-    {FLAG_BADGE02_GET, 19},
-    {FLAG_BADGE03_GET, 30},
-    {FLAG_BADGE04_GET, 39},
-    {FLAG_BADGE05_GET, 45},
-    {FLAG_BADGE06_GET, 55},
-    {FLAG_BADGE07_GET, 70},
-    {FLAG_BADGE08_GET, 85},
-    {FLAG_IS_CHAMPION, 100},
+    {FLAG_BADGE02_GET, 22},
+    {FLAG_BADGE03_GET, 36},
+    {FLAG_BADGE04_GET, 43},
+    {FLAG_BADGE05_GET, 48},
+    {FLAG_BADGE06_GET, 56},
+    {FLAG_BADGE07_GET, 63},
+    {FLAG_BADGE08_GET, 72},
+    {FLAG_IS_CHAMPION, 84},
 };
 
 u8 GetCurrentLevelCap(void)
