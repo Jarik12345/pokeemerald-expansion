@@ -3217,37 +3217,38 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 16,
-    .species = SPECIES_DREDNAW,
+    .species = SPECIES_ARCHEN,
     .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
-    .ability = ABILITY_STRONG_JAW, 
-    .heldItem = ITEM_AGUAV_BERRY,
-    .moves = {MOVE_BITE, MOVE_WATER_PULSE, MOVE_ROCK_SLIDE, MOVE_BULLDOZE}
+    .ability = ABILITY_INTIMIDATE, 
+    .heldItem = ITEM_FLYING_GEM,
+    .moves = {MOVE_ACCELEROCK, MOVE_PLUCK, MOVE_ROCK_TOMB, MOVE_BULLDOZE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 14,
-    .species = SPECIES_GLIGAR,
+    .species = SPECIES_GROWLITHE_HISUIAN,
     .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
-    .ability = ABILITY_POISON_HEAL,
-    .heldItem = ITEM_TOXIC_ORB,
-    .moves = {MOVE_BULLDOZE, MOVE_DUAL_WINGBEAT, MOVE_KNOCK_OFF, MOVE_BRICK_BREAK}
+    .ability = ABILITY_INTIMIDATE,
+    .heldItem = ITEM_PASSHO_BERRY,
+    .moves = {MOVE_BULLDOZE, MOVE_ROCK_SLIDE, MOVE_BITE, MOVE_ROCK_TOMB}
     },
     {
       .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
       .lvl = 14,
       .species = SPECIES_GRAVELER,
       .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
-      .ability = ABILITY_ROCK_HEAD,
+      .ability = ABILITY_STURDY,
       .heldItem = ITEM_PASSHO_BERRY,
-      .moves = {MOVE_ROCK_SLIDE, MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_TAKE_DOWN}
+      .moves = {MOVE_ROCK_SLIDE, MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_BODY_SLAM}
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
         .lvl = 14,
-        .species = SPECIES_LYCANROC,
-        .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
-        .heldItem = ITEM_PASSHO_BERRY,
-        .moves = {MOVE_ACCELEROCK, MOVE_CRUNCH, MOVE_BULLDOZE, MOVE_FIRE_FANG}
+        .species = SPECIES_SHIELDON,
+        .nature = TRAINER_PARTY_NATURE(NATURE_RELAXED),
+        .ability = ABILITY_STURDY,
+        .heldItem = ITEM_ORAN_BERRY,
+        .moves = {MOVE_ROCK_TOMB, MOVE_METAL_CLAW, MOVE_BULLDOZE, MOVE_ROCK_SLIDE}
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
