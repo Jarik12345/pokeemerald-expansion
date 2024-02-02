@@ -3212,7 +3212,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
     .ability = ABILITY_MOLD_BREAKER,
     .heldItem = ITEM_CHOPLE_BERRY,
-    .moves = {MOVE_ROCK_SLIDE, MOVE_BULLDOZE, MOVE_CRUNCH, MOVE_STOMP}
+    .moves = {MOVE_ROCK_TOMB, MOVE_BULLDOZE, MOVE_CRUNCH, MOVE_STOMP}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3230,7 +3230,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
     .ability = ABILITY_INTIMIDATE,
     .heldItem = ITEM_PASSHO_BERRY,
-    .moves = {MOVE_BULLDOZE, MOVE_ROCK_SLIDE, MOVE_BITE, MOVE_ROCK_TOMB}
+    .moves = {MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_BITE, MOVE_FLAME_WHEEL}
     },
     {
       .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3239,7 +3239,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
       .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
       .ability = ABILITY_STURDY,
       .heldItem = ITEM_PASSHO_BERRY,
-      .moves = {MOVE_ROCK_SLIDE, MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_BODY_SLAM}
+      .moves = {MOVE_BRICK_BREAK, MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_BODY_SLAM}
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3248,7 +3248,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
         .nature = TRAINER_PARTY_NATURE(NATURE_RELAXED),
         .ability = ABILITY_STURDY,
         .heldItem = ITEM_ORAN_BERRY,
-        .moves = {MOVE_ROCK_TOMB, MOVE_METAL_CLAW, MOVE_BULLDOZE, MOVE_ROCK_SLIDE}
+        .moves = {MOVE_ROCK_TOMB, MOVE_METAL_CLAW, MOVE_BULLDOZE, MOVE_PROTECT}
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3257,7 +3257,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
         .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
         .ability = ABILITY_ROCK_HEAD,
         .heldItem = ITEM_RINDO_BERRY,
-        .moves = {MOVE_ROCK_TOMB, MOVE_WATER_PULSE, MOVE_ROCK_SLIDE, MOVE_ROCK_SMASH} 
+        .moves = {MOVE_ROCK_TOMB, MOVE_TAKE_DOWN, MOVE_DIVE, MOVE_ROCK_SMASH} 
     }
 
 };
