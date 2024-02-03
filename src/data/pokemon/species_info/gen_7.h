@@ -13,6 +13,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .baseSpAttack  = 50,
         .baseSpDefense = 50,
         .types = { TYPE_GRASS, TYPE_FLYING },
+        .IsStarter = TRUE,
         .catchRate = 45,
         .expYield = 64,
         .evYield_HP = 1,
@@ -49,7 +50,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         ICON(Rowlet, 0),
         .footprint = gMonFootprint_Rowlet,
         LEARNSETS(Rowlet),
-        .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_DARTRIX}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_DARTRIX}),
     },
 
     [SPECIES_DARTRIX] =
@@ -196,6 +197,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 40,
         .types = { TYPE_FIRE, TYPE_FIRE },
+        .IsStarter = TRUE,
         .catchRate = 45,
         .expYield = 64,
         .evYield_Speed = 1,
@@ -378,7 +380,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         ICON(Popplio, 0),
         .footprint = gMonFootprint_Popplio,
         LEARNSETS(Popplio),
-        .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_BRIONNE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_BRIONNE}),
     },
 
     [SPECIES_BRIONNE] =

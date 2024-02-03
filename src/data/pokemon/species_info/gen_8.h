@@ -13,7 +13,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpAttack  = 40,
         .baseSpDefense = 40,
         .types = { TYPE_GRASS, TYPE_GRASS },
-        .IsStarter = TRUE,
         .catchRate = 45,
         .expYield = 62,
         .evYield_Attack = 1,
