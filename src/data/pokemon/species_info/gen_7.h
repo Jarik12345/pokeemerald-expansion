@@ -341,6 +341,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .baseSpAttack  = 66,
         .baseSpDefense = 56,
         .types = { TYPE_WATER, TYPE_WATER },
+        .IsStarter = TRUE,
         .catchRate = 45,
         .expYield = 64,
         .evYield_SpAttack = 1,

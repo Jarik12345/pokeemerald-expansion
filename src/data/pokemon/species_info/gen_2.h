@@ -162,6 +162,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 50,
         .types = { TYPE_FIRE, TYPE_FIRE },
+        .IsStarter = TRUE,
         .catchRate = 45,
         .expYield = 62,
         .evYield_Speed = 1,

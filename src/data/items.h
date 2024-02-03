@@ -37,7 +37,7 @@ const struct Item gItems[] =
     [ITEM_POKE_BALL] =
     {
         .name = _("Poké Ball"),
-        .price = 200,
+        .price = 1,
         .description = sPokeBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -158,7 +158,7 @@ const struct Item gItems[] =
     [ITEM_QUICK_BALL] =
     {
         .name = _("Quick Ball"),
-        .price = 1000,
+        .price = 1,
         .description = sQuickBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
