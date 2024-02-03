@@ -844,6 +844,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_LINKING_CORD] = {gItemIcon_LinkingCord, gItemIconPalette_LinkingCord},
     [ITEM_PEAT_BLOCK] = {gItemIcon_PeatBlock, gItemIconPalette_PeatBlock},
     [ITEM_BERSERK_GENE] = {gItemIcon_BerserkGene, gItemIconPalette_BerserkGene},
+    [ITEM_ENDLESS_CANDY] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
     [ITEM_FAIRY_FEATHER] = {gItemIcon_FairyFeather, gItemIconPalette_FairyFeather},
     [ITEM_SYRUPY_APPLE] = {gItemIcon_SyrupyApple, gItemIconPalette_SyrupyApple},
     [ITEM_UNREMARKABLE_TEACUP] = {gItemIcon_UnremarkableTeacup, gItemIconPalette_UnremarkableTeacup},

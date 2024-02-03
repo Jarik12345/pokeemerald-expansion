@@ -346,7 +346,7 @@ bool8 AddBagItem(u16 itemId, u16 count)
 }
 
 bool8 RemoveBagItem(u16 itemId, u16 count)
-{
+{ 
     u8 i;
     u16 totalQuantity = 0;
 
