@@ -7,6 +7,7 @@
 const u16 sLevelCapFlagMap[][2] =
 {
     {FLAG_BADGE01_GET, 16},
+    {FLAG_DEFEATED_RIVAL_RUSTBORO, 19},
     {FLAG_BADGE02_GET, 25},
     {FLAG_BEAT_RIVAL_110, 31},
     {FLAG_BADGE03_GET, 36},
