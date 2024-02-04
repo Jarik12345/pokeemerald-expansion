@@ -3265,7 +3265,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
 static const struct TrainerMon sParty_Brawly1[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 20,
+    .lvl = 21,
     .species = SPECIES_MACHOKE,
     .nature = TRAINER_PARTY_NATURE(NATURE_SERIOUS),
     .ability = ABILITY_NO_GUARD,
@@ -3274,7 +3274,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 22,
+    .lvl = 23,
     .species = SPECIES_HITMONTOP,
     .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
     .ability = ABILITY_INTIMIDATE,
@@ -3283,7 +3283,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 20,
+    .lvl = 21,
     .species = SPECIES_PAWMO,
     .nature = TRAINER_PARTY_NATURE(NATURE_IMPISH),
     .ability = ABILITY_IRON_FIST,
@@ -3292,7 +3292,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-        .lvl = 20,
+        .lvl = 21,
         .species = SPECIES_POLIWHIRL,
         .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
         .ability = ABILITY_SWIFT_SWIM,
@@ -3301,7 +3301,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-        .lvl = 20,
+        .lvl = 21,
         .species = SPECIES_MONFERNO,
         .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
         .ability = ABILITY_IRON_FIST,
@@ -3310,7 +3310,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-        .lvl = 20,
+        .lvl = 21,
         .species = SPECIES_QUILLADIN,
         .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
         .ability = ABILITY_BULLETPROOF,

@@ -428,6 +428,7 @@ Route110_EventScript_MayBattleMudkip::
 Route110_EventScript_MayDefeated::
 	msgbox Route110_Text_MayTakeThis, MSGBOX_DEFAULT
 	call Route110_EventScript_GiveItemfinder
+	setflag FLAG_BEAT_RIVAL_110
 	msgbox Route110_Text_MayExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
@@ -458,6 +459,7 @@ Route110_EventScript_BrendanBattleMudkip::
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
 	call Route110_EventScript_GiveItemfinder
+	setflag FLAG_BEAT_RIVAL_110
 	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
