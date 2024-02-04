@@ -1452,7 +1452,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         ICON(Combee, 0),
         .footprint = gMonFootprint_Combee,
         LEARNSETS(Combee),
-        .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 21, SPECIES_VESPIQUEN}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_VESPIQUEN}),
     },
 
     [SPECIES_VESPIQUEN] =

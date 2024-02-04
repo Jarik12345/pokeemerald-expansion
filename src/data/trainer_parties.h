@@ -3266,11 +3266,11 @@ static const struct TrainerMon sParty_Brawly1[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 20,
-    .species = SPECIES_GURDURR,
-    .nature = TRAINER_PARTY_NATURE(NATURE_BRAVE),
-    .ability = ABILITY_SHEER_FORCE,
+    .species = SPECIES_MACHOKE,
+    .nature = TRAINER_PARTY_NATURE(NATURE_SERIOUS),
+    .ability = ABILITY_NO_GUARD,
     .heldItem = ITEM_PAYAPA_BERRY,
-    .moves = {MOVE_ROCK_TOMB, MOVE_LOW_SWEEP, MOVE_KNOCK_OFF, MOVE_MACH_PUNCH}
+    .moves = {MOVE_ROCK_TOMB, MOVE_BRICK_BREAK, MOVE_KNOCK_OFF, MOVE_SHADOW_PUNCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3293,11 +3293,11 @@ static const struct TrainerMon sParty_Brawly1[] = {
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
         .lvl = 20,
-        .species = SPECIES_DEWOTT,
+        .species = SPECIES_POLIWHIRL,
         .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
-        .ability = ABILITY_TORRENT,
-        .heldItem = ITEM_EXPERT_BELT,
-        .moves = {MOVE_CHILLING_WATER, MOVE_AIR_SLASH, MOVE_DETECT, MOVE_AURORA_BEAM},
+        .ability = ABILITY_SWIFT_SWIM,
+        .heldItem = ITEM_ORAN_BERRY,
+        .moves = {MOVE_CHILLING_WATER, MOVE_ICE_PUNCH, MOVE_BRICK_BREAK, MOVE_BODY_SLAM},
     },
     {
         .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
