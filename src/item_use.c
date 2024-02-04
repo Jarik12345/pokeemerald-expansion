@@ -62,6 +62,7 @@ static void ItemUseOnFieldCB_Bike(u8);
 static void ItemUseOnFieldCB_Rod(u8);
 static void ItemUseOnFieldCB_Itemfinder(u8);
 static void ItemUseOnFieldCB_Berry(u8);
+static void ItemUseCB_PokeVial(u8);
 static void ItemUseOnFieldCB_WailmerPailBerry(u8);
 static void ItemUseOnFieldCB_WailmerPailSudowoodo(u8);
 static bool8 TryToWaterSudowoodo(void);
@@ -709,6 +710,30 @@ void ItemUseOutOfBattle_PowderJar(u8 taskId)
     {
         DisplayItemMessageOnField(taskId, gStringVar4, Task_CloseCantUseKeyItemMessage);
     }
+}
+
+extern u8 PokeVialHealScript[];
+
+void ItemUseOutOfBattle_PokeVial(u8 taskId)
+{
+    if (!gTasks[taskId].tUsingRegisteredKeyItem)
+    {
+        sItemUseOnFieldCB = ItemUseCB_PokeVial;
+        gFieldCallback = FieldCB_UseItemOnField;
+        gBagMenu->newScreenCallback = CB2_ReturnToField;
+        Task_FadeAndCloseBagMenu(taskId);
+    }
+    else{
+        sItemUseOnFieldCB = ItemUseCB_PokeVial;
+        SetUpItemUseOnFieldCallback(taskId);
+    }
+}
+
+void ItemUseCB_PokeVial(u8 taskId)
+{
+    LockPlayerFieldControls();
+    ScriptContext_SetupScript(PokeVialHealScript);
+    DestroyTask(taskId);
 }
 
 void ItemUseOutOfBattle_Berry(u8 taskId)

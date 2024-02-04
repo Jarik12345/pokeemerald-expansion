@@ -989,8 +989,9 @@
 #define ITEM_814 814 // TWV0YWwgQWxsb3k=
 #define ITEM_815 815 // U3RlbGxhciBUZXJhIFNoYXJk
 #define ITEM_ENDLESS_CANDY 816
+#define ITEM_POKE_VIAL 817
 
-#define ITEMS_COUNT 817
+#define ITEMS_COUNT 818
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

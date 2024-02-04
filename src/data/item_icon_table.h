@@ -777,6 +777,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_MYSTIC_TICKET] = {gItemIcon_MysticTicket, gItemIconPalette_MysticTicket},
     [ITEM_AURORA_TICKET] = {gItemIcon_AuroraTicket, gItemIconPalette_AuroraTicket},
     [ITEM_OLD_SEA_MAP] = {gItemIcon_OldSeaMap, gItemIconPalette_OldSeaMap},
+    [ITEM_POKE_VIAL] = {gItemIcon_Flute, gItemIconPalette_BlueFlute},
     [ITEM_LETTER] = {gItemIcon_Letter, gItemIconPalette_LavaCookieAndLetter},
     [ITEM_DEVON_PARTS] = {gItemIcon_DevonParts, gItemIconPalette_DevonParts},
     [ITEM_GO_GOGGLES] = {gItemIcon_GoGoggles, gItemIconPalette_GoGoggles},

@@ -9825,4 +9825,15 @@ const struct Item gItems[] =
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
     },
+
+    [ITEM_POKE_VIAL] = 
+    {
+        .name = _("Poke Vial"),
+        .price = 1,
+        .description = sPokeVialDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PokeVial,
+    }
 };
