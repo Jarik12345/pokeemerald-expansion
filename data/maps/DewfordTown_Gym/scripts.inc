@@ -136,7 +136,7 @@ DewfordTown_Gym_EventScript_Brawly::
 	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, DewfordTown_Gym_EventScript_BrawlyRematch
-	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, DewfordTown_Gym_EventScript_GiveBulkUp2
+	goto_if_unset FLAG_RECEIVED_TM_BRICK_BREAK, DewfordTown_Gym_EventScript_GiveBrickBreak
 	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -153,7 +153,7 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
-	call DewfordTown_Gym_EventScript_GiveBulkUp
+	call DewfordTown_Gym_EventScript_GiveBrickBreak
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -167,18 +167,18 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	release
 	end
 
-DewfordTown_Gym_EventScript_GiveBulkUp::
-	giveitem ITEM_TM_BULK_UP
+DewfordTown_Gym_EventScript_GiveBrickBreak::
+	giveitem ITEM_TM_BRICK_BREAK
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
-	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_BULK_UP
+	msgbox DewfordTown_Gym_Text_ExplainBrickBreak, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_BRICK_BREAK
 	return
 
-DewfordTown_Gym_EventScript_GiveBulkUp2:
-	giveitem ITEM_TM_BULK_UP
+DewfordTown_Gym_EventScript_GiveBrickBreak2:
+	giveitem ITEM_TM_BRICK_BREAK
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
-	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_BULK_UP
+	msgbox DewfordTown_Gym_Text_ExplainBrickBreak, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_BRICK_BREAK
 	release
 	end
 
@@ -408,10 +408,10 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "If you'd like, use this TECHNICAL\n"
 	.string "MACHINE, too.$"
 
-DewfordTown_Gym_Text_ExplainBulkUp:
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
+DewfordTown_Gym_Text_ExplainBrickBreak:
+	.string "That TM31 contains BRICK BREAK.\p"
+	.string "This destroys barriers like LIGHT SCREEN\n"
+	.string "and causes damage.\p"
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:

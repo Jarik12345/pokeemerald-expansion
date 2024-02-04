@@ -8,7 +8,7 @@ SootopolisCity_House1_EventScript_BrickBreakBlackBelt::
 	msgbox SootopolisCity_House1_Text_DevelopedThisTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM_BRICK_BREAK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_TM_BRICK_BREAK
+	setflag FLAG_RECEIVED_TM_BRICK_BREAK_2
 	msgbox SootopolisCity_House1_Text_ExplainBrickBreak, MSGBOX_DEFAULT
 	release
 	end
