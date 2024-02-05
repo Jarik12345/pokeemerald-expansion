@@ -80,7 +80,7 @@
           "map": "MAP_ROUTE101",
           "base_label": "gRoute101",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 40,
             "mons": [
               {
                 "min_level": 5,

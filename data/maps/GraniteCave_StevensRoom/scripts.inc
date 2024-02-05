@@ -6,6 +6,7 @@ GraniteCave_StevensRoom_MapScripts::
 GraniteCave_StevensRoom_EventScript_Steven::
 	lock
 	faceplayer
+	goto_if_unset FLAG_BADGE02_GET, GraniteCave_Stevens_Room_EventScript_NoBrawlyBadge
 	msgbox GraniteCave_StevensRoom_Text_ImStevenLetterForMe, MSGBOX_DEFAULT
 	setvar VAR_0x8004, ITEM_LETTER
 	call Common_EventScript_PlayerHandedOverTheItem
@@ -30,6 +31,12 @@ GraniteCave_StevensRoom_EventScript_Steven::
 	call_if_eq VAR_FACING, DIR_EAST, GraniteCave_StevensRoom_EventScript_StevenExitWestEast
 	playse SE_EXIT
 	removeobject LOCALID_STEVEN
+	release
+	end
+
+GraniteCave_Stevens_Room_EventScript_NoBrawlyBadge::
+    msgbox GraniteCave_StevensRoom_Text_NoBrawlyBadge, MSGBOX_DEFAULT
+	closemessage
 	release
 	end
 
@@ -118,4 +125,8 @@ GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 GraniteCave_StevensRoom_Text_OhBagIsFull:
 	.string "Oh, your BAG is full…\n"
 	.string "That's too bad, then.$"
+
+GraniteCave_StevensRoom_Text_NoBrawlyBadge:
+    .string "Oh, you haven't beaten Brawly...\n"
+    .string "Go beat Brawly and come back.$"
 
