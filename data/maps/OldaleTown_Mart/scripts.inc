@@ -16,9 +16,9 @@ OldaleTown_Mart_EventScript_Clerk::
 OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_ENDLESS_CANDY
 	.2byte ITEM_POKE_VIAL
-	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_MACH_BIKE
 	.2byte ITEM_ACRO_BIKE
+	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_MASTER_BALL
 	.2byte ITEM_QUICK_BALL
 	.2byte ITEM_POKE_BALL
@@ -36,9 +36,9 @@ OldaleTown_Mart_ExpandedItems::
 OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_ENDLESS_CANDY
 	.2byte ITEM_POKE_VIAL
-	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_MACH_BIKE
 	.2byte ITEM_ACRO_BIKE
+	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_MASTER_BALL
 	.2byte ITEM_QUICK_BALL
 	.2byte ITEM_POKE_BALL

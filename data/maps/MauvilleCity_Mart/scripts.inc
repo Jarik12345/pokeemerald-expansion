@@ -13,18 +13,19 @@ MauvilleCity_Mart_EventScript_Clerk::
 
 	.align 2
 MauvilleCity_Mart_Pokemart:
-	.2byte ITEM_POKE_BALL
-	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFENSE
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_SUN_STONE
+	.2byte ITEM_ICE_STONE
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_TART_APPLE
 	.2byte ITEM_NONE
 	release
 	end
