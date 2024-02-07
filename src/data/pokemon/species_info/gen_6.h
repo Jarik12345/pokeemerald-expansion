@@ -1798,7 +1798,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_INFILTRATOR, ABILITY_OWN_TEMPO },
+        .abilities = { ABILITY_PRANKSTER, ABILITY_PRANKSTER, ABILITY_OWN_TEMPO },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Espurr"),
         .cryId = CRY_ESPURR,
@@ -1866,7 +1866,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     {
         MEOWSTIC_MISC_INFO,
         .genderRatio = MON_MALE,
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_INFILTRATOR, ABILITY_PRANKSTER },
+        .abilities = { ABILITY_PRANKSTER, ABILITY_PRANKSTER, ABILITY_OWN_TEMPO },
         .bodyColor = BODY_COLOR_BLUE,
         .description = COMPOUND_STRING(
             "The defensive instinct of the\n"
@@ -1885,7 +1885,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     {
         MEOWSTIC_MISC_INFO,
         .genderRatio = MON_FEMALE,
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_INFILTRATOR, ABILITY_COMPETITIVE },
+        .abilities = { ABILITY_PRANKSTER, ABILITY_PRANKSTER, ABILITY_OWN_TEMPO },
         .bodyColor = BODY_COLOR_WHITE,
         .description = COMPOUND_STRING(
             "Females are a bit more selfish and\n"
@@ -2887,7 +2887,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_MONSTER },
-        .abilities = { ABILITY_REFRIGERATE, ABILITY_NONE, ABILITY_SNOW_WARNING },
+        .abilities = { ABILITY_REFRIGERATE, ABILITY_NONE, ABILITY_ICE_BODY },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Amaura"),
         .cryId = CRY_AMAURA,
@@ -2935,7 +2935,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_MONSTER },
-        .abilities = { ABILITY_REFRIGERATE, ABILITY_NONE, ABILITY_SNOW_WARNING },
+        .abilities = { ABILITY_REFRIGERATE, ABILITY_NONE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Aurorus"),
         .cryId = CRY_AURORUS,
