@@ -187,19 +187,61 @@ static const struct TrainerMon sParty_GruntWeatherInst3[] = {
 
 static const struct TrainerMon sParty_GruntMuseum1[] = {
     {
-    .lvl = 15,
-    .species = SPECIES_CARVANHA,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 27,
+    .species = SPECIES_LOMBRE,
+    .nature = TRAINER_PARTY_NATURE(NATURE_BASHFUL),
+    .ability = ABILITY_RAIN_DISH, 
+    .heldItem = ITEM_LEFTOVERS, 
+    .moves = {MOVE_RAIN_DANCE, MOVE_LEECH_SEED, MOVE_FAKE_OUT, MOVE_PROTECT}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 27,
+    .species = SPECIES_CHINCHOU,
+    .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
+    .ability = ABILITY_VOLT_ABSORB,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_BUBBLE_BEAM, MOVE_SHOCK_WAVE, MOVE_THUNDER_WAVE, MOVE_AURORA_BEAM}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 27,
+    .species = SPECIES_POLIWHIRL,
+    .nature = TRAINER_PARTY_NATURE(NATURE_SASSY),
+    .ability = ABILITY_SWIFT_SWIM,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_MUD_SHOT, MOVE_BUBBLE_BEAM, MOVE_LOW_SWEEP, MOVE_WHIRLPOOL}
     }
 };
 
 static const struct TrainerMon sParty_GruntMuseum2[] = {
     {
-    .lvl = 14,
-    .species = SPECIES_ZUBAT,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 27,
+    .species = SPECIES_POPPLIO,
+    .nature = TRAINER_PARTY_NATURE(NATURE_TIMID),
+    .ability = ABILITY_TORRENT, 
+    .heldItem = ITEM_MYSTIC_WATER, 
+    .moves = {MOVE_RAIN_DANCE, MOVE_CHILLING_WATER, MOVE_AURORA_BEAM, MOVE_DRAINING_KISS}
     },
     {
-    .lvl = 14,
-    .species = SPECIES_CARVANHA,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 27,
+    .species = SPECIES_SKRELP,
+    .nature = TRAINER_PARTY_NATURE(NATURE_MODEST),
+    .ability = ABILITY_POISON_POINT,
+    .heldItem = ITEM_LUM_BERRY,
+    .moves = {MOVE_BUBBLE_BEAM, MOVE_TOXIC, MOVE_VENOSHOCK, MOVE_PROTECT}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 27,
+    .species = SPECIES_FINIZEN,
+    .nature = TRAINER_PARTY_NATURE(NATURE_BASHFUL),
+    .ability = ABILITY_WATER_VEIL,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_CHILLING_WATER, MOVE_AQUA_JET, MOVE_ICY_WIND, MOVE_PROTECT}
     }
 };
 
@@ -3230,13 +3272,13 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
     .ability = ABILITY_INTIMIDATE,
     .heldItem = ITEM_PASSHO_BERRY,
-    .moves = {MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_BITE, MOVE_FLAME_WHEEL}
+    .moves = {MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_ACCELEROCK, MOVE_FLAME_WHEEL}
     },
     {
       .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
       .lvl = 14,
       .species = SPECIES_GRAVELER,
-      .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
+      .nature = TRAINER_PARTY_NATURE(NATURE_SASSY),
       .ability = ABILITY_STURDY,
       .heldItem = ITEM_PASSHO_BERRY,
       .moves = {MOVE_BRICK_BREAK, MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_BODY_SLAM}
@@ -3247,7 +3289,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
         .species = SPECIES_SHIELDON,
         .nature = TRAINER_PARTY_NATURE(NATURE_RELAXED),
         .ability = ABILITY_STURDY,
-        .heldItem = ITEM_ORAN_BERRY,
+        .heldItem = ITEM_CHOPLE_BERRY,
         .moves = {MOVE_ROCK_TOMB, MOVE_METAL_CLAW, MOVE_BULLDOZE, MOVE_PROTECT}
     },
     {
@@ -8812,11 +8854,11 @@ static const struct TrainerMon sParty_WallyMauville[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 36,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_GALLADE,
     .nature = TRAINER_PARTY_NATURE(NATURE_NAIVE),
-    .ability = ABILITY_SYNCHRONIZE,
+    .ability = ABILITY_STEADFAST,
     .heldItem = ITEM_LUM_BERRY,
-    .moves = {MOVE_DRAINING_KISS, MOVE_GRASS_KNOT, MOVE_PSYCHIC, MOVE_SHADOW_BALL}
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_EARTHQUAKE, MOVE_PSYCHO_CUT, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
